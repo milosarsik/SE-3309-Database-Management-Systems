@@ -1,0 +1,55 @@
+-- MySQL dump 10.13  Distrib 8.0.18, for Win64 (x86_64)
+--
+-- Host: localhost    Database: soccersocialmediadb
+-- ------------------------------------------------------
+-- Server version	8.0.18
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `teamandstadiumlocation`
+--
+
+DROP TABLE IF EXISTS `teamandstadiumlocation`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `teamandstadiumlocation` (
+  `street` varchar(50) NOT NULL,
+  `city` varchar(50) NOT NULL,
+  `postalCode` varchar(50) NOT NULL,
+  `teamName` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`street`,`city`,`postalCode`),
+  KEY `teamName` (`teamName`),
+  CONSTRAINT `teamandstadiumlocation_ibfk_1` FOREIGN KEY (`teamName`) REFERENCES `teamandstadium` (`teamName`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `teamandstadiumlocation`
+--
+
+LOCK TABLES `teamandstadiumlocation` WRITE;
+/*!40000 ALTER TABLE `teamandstadiumlocation` DISABLE KEYS */;
+INSERT INTO `teamandstadiumlocation` VALUES ('075 Melody Pass','Ponce','731','ADO Den Haag'),('3 Hovde Way','Argasari','','Ajax'),('342 Drewry Road','Bayt ‘Adhāqah','','Akhmat Grozny'),('12 Hoepker Terrace','El Carril','4421','Alaves'),('486 Village Drive','Ystad','271 51','Amiens'),('7 Jenifer Alley','San Juan del Cesar','444038','Anderlecht'),('491 Summit Place','Bělá pod Bezdězem','294 21','Angers'),('7 Bonner Way','Yanwang','','Antwerp'),('9 Melby Center','Eastern Suburbs Mc','1391','Arsenal'),('1250 Warbler Plaza','Kiyawa','','Arsenal Tula'),('658 Sachtjen Circle','Shuikou','','Aston Villa'),('47 Briar Crest Alley','Teófilo Otoni','39800-000','Atalanta'),('33839 Muir Point','San Diego','3609','Athletic Bilbao Bilbao'),('64216 Sloan Parkway','Xinzhu','','Atletico Madrid Madrid'),('77 Alpine Circle','Gul’cha','','AZ'),('4677 Melvin Park','Watrous','L9T','Barcelona'),('939 Badeau Pass','Ózd','3607','Bayer Leverkusen'),('1 Lakeland Avenue','Wadi Kidul','','Bayern Munich'),('8571 Hauk Center','El Hatillo','','Belenenses SAD'),('60145 Victoria Street','Quebrada de Arena','','Benfica'),('23 Artisan Park','Puerto Ayacucho','','Boavista'),('893 Hayes Alley','Kochevo','619320','Bologna'),('071 Heath Avenue','Pimentel','11201','Bordeaux'),('794 Hoepker Court','Mawu','','Borussia Dortmund'),('6398 Cordelia Hill','Lasi Dua','','Borussia Monchengladbach'),('2 Moland Hill','Garoua Boulaï','','Bournemouth'),('45 Pankratz Crossing','Ceuta','51005','Braga'),('2611 Nelson Crossing','Obando','762507','Brescia'),('53921 Vahlen Center','Émpa','','Brest'),('6965 Jana Alley','Maomiaoji','','Brighton & Hove Albion'),('999 Waywood Lane','Huaqiao','','Burnley'),('3 Maple Street','Pakkat','','Cagliari'),('3 Lotheville Hill','Tayirove','','Celta Vigo'),('567 Melody Street','Blois','41976 CEDEX 9','Cercle Brugge'),('35 Paget Drive','Miranda','191529','Charleroi'),('7667 Bluejay Pass','San Vicente','6419','Chelsea'),('307 Mosinee Avenue','Camajuaní','','Club Brugge'),('28402 Lighthouse Bay Lane','Pliwetan','','Crystal Palace'),('20797 Longview Court','Alès','30112 CEDEX','CSKA Moscow'),('50 Schlimgen Parkway','Paris 19','75929 CEDEX 19','Desportivo das Aves'),('3 Rigney Terrace','Biryulëvo','142717','Dijon'),('5173 Eastlawn Pass','Chavarría','3474','Dynamo Moscow'),('1886 Moulton Street','Jaffna','40000','Eibar'),('036 Tennessee Way','Lau','2950-127','Eintracht Frankfurt'),('10601 Luster Center','Zhongxiao','','Emmen'),('65 Armistice Avenue','Andkhōy','','Espanyol'),('98 Bunker Hill Avenue','Jinxiang','','Eupen'),('5 Muir Junction','Nggesa','','Everton'),('44733 Norway Maple Crossing','Rybinsk','433782','Famalicao'),('35118 Scoville Street','Anyu','','FC Augsburg'),('439 South Terrace','Liloan','6612','FC Koln'),('12443 Banding Lane','Ţawr al Bāḩah','','FC Ural'),('2998 Garrison Junction','Samadua','','Feyenoord'),('6 Express Way','Kowale','83-010','Fiorentina'),('3 Welch Center','Ngasinan','','Fortuna Dosseldorf'),('36877 Autumn Leaf Place','Checun','','Fortuna Sittard'),('3 Sunfield Parkway','Wangcheng','','Genk'),('494 Towne Trail','Sampaloc','4329','Genoa'),('98803 Drewry Plaza','Madolenihm Municipality Government','','Gent'),('21289 Little Fleur Pass','Sar Chakān','','Getafe'),('24682 Mccormick Circle','Nizhniy Tagil','622052','Gil Vicente'),('3 Fremont Terrace','Kudirkos Naumiestis','71049','Granada'),('950 Shoshone Crossing','Frýdek-Místek','733 01','Groningen'),('74337 Magdeline Plaza','La Victoria','95603','Heerenveen'),('945 Dunning Avenue','Bergen op Zoom','4619','Hellas Verona'),('826 Westport Road','Osvaldo Cruz','17700-000','Heracles Almelo'),('01298 Cambridge Way','Sukhobuzimskoye','663040','Hertha BSC'),('00597 Mosinee Parkway','Debrzno','77-310','Internazionale'),('53 Blaine Court','Huangjin','','Juventus'),('6 Claremont Lane','Grästorp','467 96','Kortrijk'),('31 Mitchell Center','Bakunase','','Krasnodar'),('1 Grim Street','Kompaniyivka','','Krylia Sovetov'),('90 Haas Avenue','Trai Ngau','','Lazio'),('1419 Sunnyside Street','Tarouca','3610-005','Lecce'),('5414 Mesta Alley','Padre Paraíso','39818-000','Leganes'),('15142 Brentwood Place','Vicente Guerrero','30505','Leicester City'),('14 Westend Circle','Dunaivtsi','','Levante'),('8893 Oriole Place','Pasiragung','','Lille'),('7660 Oriole Hill','Kizil','','Liverpool'),('61 Fairfield Point','Faisalābād','48101','Lokomotiv Moscow'),('6376 Walton Trail','Sillamäe','','Lyon'),('74199 Jay Way','Rencun','','Mainz 05'),('36043 Ludington Court','Gornji Grad','3342','Mallorca'),('5230 Everett Terrace','Yelan’-Kolenovskiy','152720','Manchester City'),('73 Haas Circle','Zheleznovodsk','357408','Manchester United'),('25697 Fairfield Place','Yuscarán','','Maritimo'),('642 Buell Drive','Gareba','','Marseille'),('8 Pine View Parkway','Aconibe','','Mechelen'),('11 Artisan Pass','El Zulia','545518','Metz'),('6 Elgar Alley','San Jose','39266','Milan'),('796 Clarendon Parkway','Haguimit','6117','Monaco'),('35 Fulton Alley','Hot','','Montpellier'),('8511 Anthes Circle','Pamatang','','Moreirense'),('04259 Beilfuss Hill','Coxim','79400-000','Mouscron'),('59 Di Loreto Hill','Arapongas','86700-000','Nantes'),('1 Corscot Avenue','Muyuzi','','Napoli'),('13247 Hayes Crossing','Taohua','','Newcastle United'),('6 Bobwhite Drive','Vyshneye Dolgoye','303773','Nice'),('395 Walton Plaza','Posadas','3300','Nimes'),('7 Schurz Alley','Aigínio','','Norwich City'),('86850 Delladonna Pass','Mbigou','','Oostende'),('75 Bashford Place','Khūgyāṉī','','Orenburg'),('694 Morningstar Junction','Xiaomiaozi','','Osasuna'),('012 Cordelia Point','Stockholm','102 27','Pacos de Ferreira'),('2 Briar Crest Lane','Liuzu','','Parma'),('5 Marquette Junction','Antalaha','','PEC Zwolle'),('31 Old Gate Trail','Chamni','10520','Portimonense'),('78 Main Lane','Crato','63100-000','Porto'),('29 Tennessee Avenue','Sarirejo Satu','','PSG'),('9983 Lakewood Street','Zhendong','','PSV Eindhoven'),('68 Lakewood Gardens Avenue','Bayan Ewenke Minzu','','RB Leipzig'),('0 Victoria Trail','Sosnówka','58-564','Real Betis'),('522 Golf Road','Granadero Baigorria','2152','Real Madrid'),('0 Fairview Drive','Vĩnh Thuận','','Real Sociedad'),('8996 Cody Junction','Douala','','Reims'),('9 Arrowood Alley','Guadalupe','29952','Rennes'),('49535 Lyons Lane','Xiangyun','','Rio Ave'),('99031 Bluejay Way','Zhanghua','','RKC Waalwijk'),('0 Badeau Junction','Vanino','682860','Roma'),('95 Oneill Way','Iralaya','','Rostov'),('87164 Fisk Hill','Sri Jayewardenepura Kotte','10600','Rubin Kazan'),('1374 Northview Hill','Ipís','10805','Saint-Etienne'),('741 Spaight Lane','Flandes','733517','Sampdoria'),('9 Armistice Terrace','Jiangwan','','Santa Clara'),('70 Heffernan Drive','Shengshan','','Sassuolo'),('31 Crownhardt Place','Ladner','V7A','SC Freiburg'),('6129 Veith Trail','Youyun','','SC Paderborn'),('0 Eggendart Terrace','Sing Buri','16150','Schalke 04'),('66 American Ash Trail','Miłosław','62-320','Sevilla Seville'),('038 Pond Street','Vallecillo','','Sheffield United'),('52842 Commercial Center','Were Īlu','','Sint-Truiden'),('16 Vidon Road','Bapska','32235','Sochi'),('33 Ohio Lane','Sacramento','95818','Southampton'),('4981 Forest Run Street','Glondong','','SPAL'),('36025 Arapahoe Drive','Cibeureum Satu','','Sparta Rotterdam'),('8 Grim Lane','Masaguisi','6806','Spartak Moscow'),('58 Westerfield Trail','Mabiton','1801','Sporting CP'),('3431 Anthes Park','Fulu','','Standard Liege'),('5057 Graceland Hill','Petrivka','','Strasbourg'),('524 Warbler Hill','Kotanopan','','Tambov'),('04 Old Gate Center','Redakodi','','Tondela'),('19 Grim Street','Maracaçumé','65289-000','Torino'),('578 Sommers Crossing','Shangdian','','Tottenham Hotspur'),('08388 Starling Hill','Novki','601340','Toulouse'),('820 Morning Court','Gandrungmangu','','TSG Hoffenheim'),('51913 Iowa Drive','Licun','','Twente'),('31 Lakewood Gardens Circle','Floresta','56400-000','Udinese'),('64798 Spaight Terrace','Rambatan','','Ufa'),('23187 Hanover Plaza','Moyamba','','Union Berlin'),('4 Arizona Crossing','Novozavidovskiy','171270','Utrecht'),('0 Evergreen Place','Líbeznice','250 65','Valencia'),('31 Moulton Point','Évora','7000-062','Valladolid'),('80633 Crest Line Road','Jandir','','VfL Wolfsburg'),('37205 Division Point','Xiaolan','','Villarreal'),('95012 Bunting Trail','Genting','','Vitesse'),('715 Washington Place','Phoenix','85053','Vitoria de Guimaraes'),('491 Menomonie Center','Guanshan','','Vitoria de Setubal'),('443 Gerald Center','Duki','84200','VVV-Venlo'),('39 Fremont Trail','Benito Juarez','29120','Waasland-Beveren'),('0327 Algoma Way','Xiadian','','Watford'),('6716 Randy Circle','Avignon','84092 CEDEX 9','Werder Bremen'),('720 Rutledge Pass','Pokrov','601120','West Ham United'),('78408 Hallows Crossing','Chorotis','3733','Willem II'),('2549 Bultman Road','Yulao','','Wolverhampton Wanderers'),('18647 Stoughton Circle','Privolzhsk','155553','Zenit Saint Petersburg'),('60015 Morning Hill','Argel','','Zulte Waregem');
+/*!40000 ALTER TABLE `teamandstadiumlocation` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2019-11-25  2:37:29

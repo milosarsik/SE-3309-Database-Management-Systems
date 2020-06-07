@@ -1,0 +1,12 @@
+﻿street,city,postalCode,meetupName
+28119 Orin Street,Pocohuanca,45543,Arsenal Fan Party
+9017 Loomis Alley,Catac,854352,Barcelona Fan Party
+9 Kensington Center,Bologna,40141,Bayern Munich Fan Party
+796 Golden Leaf Terrace,Cahabón,16012,Chelsea Beer Garden
+4 Maple Trail,San Benito,8423,Juventus Fan Party
+3 Eagan Road,Loma Bonita,47450,Liverpool Beer Garden
+92639 Kropf Circle,Poço Verde,49490-000,Manchester United Pub Crawl
+73 Forest Dale Alley,Chifeng,34535,Napoli Pizza Party
+0 Scofield Court,Pétange,L-8381,PSG Fan Party
+34 Steensland Hill,Himeji,680-0301,Real Madrid Fan Party
+379 Daystar Terrace,Apucarana,86800-000,Tottenham Pub Crawl,

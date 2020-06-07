@@ -1,0 +1,21 @@
+<% include partials/tempheader.ejs %>
+
+<div class="container">
+    <% if (message != '') { %>
+    <p class="text-center text-danger"><%= message %></p>
+    <% } %>
+    <form class="add-player-form" action="" method="post" enctype="multipart/form-data">
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <input type="text" class="form-control" name="username" id="username" placeholder="Confirm Username"
+                    required>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary float-right">Confirm</button>
+    </form>
+</div>
+</div>
+</body>
+
+</html>

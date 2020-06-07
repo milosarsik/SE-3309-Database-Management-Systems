@@ -1,0 +1,56 @@
+<% include partials/tempheader.ejs %>
+<div class="table-wrapper">
+    <% if (meetups.length > 0) {%>
+    <table class="table table-hovered">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Meetup Name</th>
+                <th scope="col">Date</th>
+                <th scope="col">Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% meetups.forEach((meet, index) => { %>
+            <tr>
+                <th scope="row"><%= meet.meetupName %></th>
+                <td><%= meet.meetupDate %></td>
+                <td><%= meet.time %></td>
+            </tr>
+            <% }) %>
+        </tbody>
+    </table>
+    <% } else { %>
+    <% } %>
+</div>
+
+<div class="container">
+    <% if (message != '') { %>
+    <p class="text-center text-danger"><%= message %></p>
+    <% } %>
+    <form class="add-player-form" action="" method="post" enctype="multipart/form-data">
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <input type="text" class="form-control" name="username" id="username" placeholder="Username" required>
+            </div>
+            <div class="form-group col-md-4">
+                <input type="text" class="form-control" name="firstName" id="firstName" placeholder="First Name"
+                    required>
+            </div>
+            <div class="form-group col-md-4">
+                <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last Name" required>
+            </div>
+            <div class="form-group col-md-4">
+                <input type="text" class="form-control" name="meetupName" id="meetupName" placeholder="PSG Fan Party"
+                    required>
+            </div>
+            <div class="form-group col-md-4">
+                <input type="text" class="form-control" name="date" id="date" placeholder="2020-01-07" required>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary float-right">Register</button>
+    </form>
+</div>
+</div>
+</body>
+
+</html>

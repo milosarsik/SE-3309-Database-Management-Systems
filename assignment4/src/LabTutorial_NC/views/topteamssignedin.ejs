@@ -1,0 +1,28 @@
+<% include partials/signedinheader.ejs %>
+<h2>Hello <%= user%></h2> 
+<div class="table-wrapper">
+  <% if (teams.length > 0) {%>
+    <table class="table table-hovered">
+      <thead class="thead-dark">
+      <tr>
+        <th scope="col">Team</th>
+        <th scope="col">Fans</th>
+      </tr>
+      </thead>
+      <tbody>
+      <% teams.forEach((team, index) => { %>
+        <tr>
+          <th scope="row"><%= team.team %></th>
+          <td><%= team.fans %></td>
+          
+        </tr>
+      <% }) %>
+      </tbody>
+    </table>
+  <% } else { %>
+    <p class="text-center">No players found. Go <a href="/add" >here</a> to add players.</p>
+  <% } %>
+</div>
+</div>
+</body>
+</html>

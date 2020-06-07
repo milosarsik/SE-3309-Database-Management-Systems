@@ -1,0 +1,24 @@
+<% include partials/tempheader.ejs %>
+
+<h2>Please enter username and email to confirm that you wish to deactivate youar account.</h2>
+
+<div class="container">
+    <% if (message != '') { %>
+    <p class="text-center text-danger"><%= message %></p>
+    <% } %>
+    <form class="add-player-form" action="" method="post" enctype="multipart/form-data">
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <input type="text" class="form-control" name="username" id="username" placeholder="Username" required>
+            </div>
+            <div class="form-group col-md-4">
+                <input type="text" class="form-control" name="email" id="email" placeholder="Email" required>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary float-right">Deactivate</button>
+    </form>
+</div>
+</div>
+</body>
+
+</html>

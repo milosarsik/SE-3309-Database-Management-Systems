@@ -1,0 +1,167 @@
+teamName,country,stadiumName,rivalName,rivalLevel
+Atalanta,Italy,Gewiss Stadium,Internazionale,10
+Bologna,Italy,Stadio Renato Dall'Ara,Atalanta,9
+Brescia,Italy,Stadio Mario Rigamonti,Parma,5
+Cagliari,Italy,Sardegna Arena,Brescia,8
+Fiorentina,Italy,Stadio Artemio Franchi,Napoli,10
+Genoa,Italy,Stadio Luigi Ferraris,Juventus,5
+Hellas Verona,Italy,Stadio Marc'Antonio Bentegodi,Bologna,3
+Internazionale,Italy,San Siro,Genoa,2
+Juventus,Italy,Allianz Stadium,Torino,4
+Lazio,Italy,Stadio Olimpico,Sampdoria,6
+Lecce,Italy,Stadio Via del Mare,Milan,1
+Milan,Italy,San Siro,Sassuolo,10
+Napoli,Italy,Stadio San Paolo,Roma,4
+Parma,Italy,Stadio Ennio Tardini,Cagliari,3
+Roma,Italy,Stadio Olimpico,Udinese,7
+Sampdoria,Italy,Stadio Luigi Ferraris,Fiorentina,4
+Sassuolo,Italy,Mapei Stadium,Lecce,2
+SPAL,Italy,Stadio Paolo Mazza,Lazio,2
+Torino,Italy,Stadio Olimpico Grande Torino,Hellas Verona,2
+Udinese,Italy,Stadio Friuli,SPAL,9
+Akhmat Grozny,Russia,Akhmat-Arena,Lokomotiv Moscow,9
+Arsenal Tula,Russia,Arsenal Stadium,Rubin Kazan,4
+CSKA Moscow,Russia,VEB Arena,Spartak Moscow,9
+Dynamo Moscow,Russia,VTB Arena,Dynamo Moscow,3
+Krasnodar,Russia,Krasnodar Stadium,CSKA Moscow,6
+Lokomotiv Moscow,Russia,Lokomotiv Stadium,Zenit Saint Petersburg,1
+Rostov,Russia,Rostov Arena,Akhmat Grozny,3
+Rubin Kazan,Russia,Kazan Arena,Krasnodar,1
+Orenburg,Russia,Orenburg Stadium,Orenburg,8
+Spartak Moscow,Russia,Otkrytiye Arena,Arsenal Tula,8
+Sochi,Russia,Fisht Olympic Stadium,Sochi,3
+Tambov,Russia,Spartak Stadium,Rostov,3
+Krylia Sovetov,Russia,Cosmos Arena,Tambov,5
+Ufa,Russia,Neftyanik Stadium,Krylia Sovetov,8
+FC Ural,Russia,Central Stadium,Ufa,1
+Zenit Saint Petersburg,Russia,Krestovsky Stadium,FC Ural,5
+Alaves,Spain,Mendizorrotza,Sevilla Seville,3
+Athletic Bilbao,Spain,San Mames,Barcelona,7
+Atletico Madrid,Spain,Wanda Metropolitano,Leganes,7
+Barcelona,Spain,Camp Nou,Real Madrid,10
+Celta Vigo,Spain,Abanca-Balardos,Valladolid,1
+Eibar,Spain,Ipurua,Mallorca,2
+Espanyol,Spain,RCDE Stadium,Celta Vigo,6
+Getafe,Spain,Coliseum Alfonso Perez,Real Sociedad,6
+Granada,Spain,Nuevo Los Cormenes,Real Betis,1
+Leganes,Spain,Butarque,Granada,10
+Levante,Spain,Ciutat de Valencia,Getafe,7
+Mallorca,Spain,Son Moix,Osasuna,9
+Osasuna,Spain,El Sadar,Alaves,2
+Real Betis,Spain,Benito Villamarin,Villarreal,2
+Real Madrid,Spain,Santiago Bernabeu,Valencia,1
+Real Sociedad,Spain,Anoeta,Atletico Madrid,5
+Sevilla,Spain,Ramon Sanchez Pizjuan,Levante,1
+Valencia,Spain,Mestalla,Athletic Bilbao,5
+Valladolid,Spain,Jose Zorrilla,Eibar,1
+Villarreal,Spain,Estadio de la Ceromica,Espanyol,6
+Amiens,France,Stade de la Licorne,Strasbourg,5
+Angers,France,Stade Raymond Kopa,Monaco,3
+Bordeaux,France,Matmut Atlantique,Reims,9
+Brest,France,Stade Francis-Le Ble,Angers,8
+Dijon,France,Stade Gaston Gerard,Lille,1
+Lille,France,Stade Pierre-Mauroy,Lyon,5
+Lyon,France,Groupama Stadium,Nantes,4
+Marseille,France,Velodrome,Amiens,10
+Metz,France,Stade Saint-Symphorien,Nice,6
+Monaco,France,Stade Louis II,Brest,4
+Montpellier,France,Stade de la Mosson,Bordeaux,8
+Nantes,France,Stade de la Beaujoire,Nimes,6
+Nice,France,Allianz Riviera,Metz,4
+Nimes,France,Stade des Costieres,SG,4
+PSG,France,Parc des Princes,Marseille,2
+Reims,France,Stade Auguste Delaune,Saint-etienne,9
+Rennes,France,Roazhon Park,Montpellier,5
+Saint-etienne,France,Stade Geoffroy-Guichard,Rennes,1
+Strasbourg,France,Stade de la Meinau,Toulouse,4
+Toulouse,France,Stadium Municipal,Dijon,6
+FC Augsburg,Germany,WWK ARENA,1. FC Koln,9
+Bayer Leverkusen,Germany,BayArena,TSG Hoffenheim,9
+Bayern Munich,Germany,Allianz Arena,Borussia Dortmund,7
+Borussia Dortmund,Germany,Signal Iduna Park,SC Paderborn,5
+Borussia Monchengladbach,Germany,Monchengladbach,Hertha BSC,1
+Eintracht Frankfurt,Germany,Commerzbank-Arena,Eintracht Frankfurt,9
+Fortuna Dusseldorf,Germany,Merkur Spiel-Arena,Schalke 04,4
+SC Freiburg,Germany,Schwarzwald-Stadion,RB Leipzig,3
+Hertha BSC,Germany,Olympiastadion,Bayer Leverkusen,4
+TSG Hoffenheim,Germany,Wirsol Rhein-Neckar-Arena,Fortuna Dusseldorf,5
+1. FC Koln,Germany,RheinEnergieStadion,Mainz 05,8
+RB Leipzig,Germany,Red Bull Arena,Bayern Munich,3
+Mainz 05,Germany,Coface Arena,Union Berlin,10
+SC Paderborn,Germany,Benteler-Arena,Werder Bremen,6
+Schalke 04,Germany,Veltins-Arena,VfL Wolfsburg,7
+Union Berlin,Germany,Stadion An der Alten Forsterei,SC Freiburg,1
+Werder Bremen,Germany,Weserstadion,FC Augsburg,8
+VfL Wolfsburg,Germany,Volkswagen Arena,Borussia Monchengladbach,2
+Arsenal,England,Emirates Stadium,Tottenham,9
+Aston Villa,England,Villa Park,Manchester City,4
+Bournemouth,England,Dean Court,Brighton & Hove Albion,4
+Brighton & Hove Albion,England,Falmer Stadium,West Ham United,2
+Burnley,England,Turf Moor,Norwich City,5
+Chelsea,England,Stamford Bridge,Liverpool,5
+Crystal Palace,England,Selhurst Park,Burnley,1
+Everton,England,Goodison Park,Leicester City,2
+Leicester City,England,King Power Stadium,Arsenal,3
+Liverpool,England,Anfield,Everton,2
+Manchester City,England,Etihad Stadium,Aston Villa,4
+Manchester United,England,Old Trafford,Manchester City,1
+Newcastle United,England,St James' Park,Sheffield United,7
+Norwich City,England,Carrow Road,Newcastle United,5
+Sheffield United,England,Bramall Lane,Manchester United,4
+Southampton,England,St Mary's Stadium,Tottenham Hotspur,10
+Tottenham Hotspur,England,Tottenham Hotspur Stadium,Watford,5
+Watford,England,Vicarage Road,Wolverhampton Wanderers,4
+West Ham United,England,London Stadium,Crystal Palace,1
+Wolverhampton Wanderers,England,Molineux Stadium,Everton,10
+ADO Den Haag,Netherlands,Cars Jeans Stadion,Fortuna Sittard,3
+Ajax,Netherlands,Johan Cruyff Arena,Willem II,4
+AZ,Netherlands,AFAS Stadion,Groningen,10
+Emmen,Netherlands,De Oude Meerdijk,Vitesse,1
+Feyenoord,Netherlands,De Kuip,Twente,10
+Fortuna Sittard,Netherlands,Fortuna Sittard Stadion,VVV-Venlo,9
+Groningen,Netherlands,Noordlease Stadion,RKC Waalwijk,1
+Heerenveen,Netherlands,Abe Lenstra Stadion,AZ,6
+Heracles Almelo,Netherlands,Polman Stadion,Utrecht,7
+PEC Zwolle,Netherlands,MAC3PARK Stadion,ADO Den Haag,6
+PSV Eindhoven,Netherlands,Philips Stadion,Heracles Almelo,9
+RKC Waalwijk,Netherlands,Mandemakers Stadion,Feyenoord,1
+Sparta Rotterdam,Netherlands,Het Kasteel,PSV Eindhoven,9
+Twente,Netherlands,De Grolsch Veste,PEC Zwolle,5
+Utrecht,Netherlands,Stadion Galgenwaard,Emmen,10
+Vitesse,Netherlands,GelreDome,Ajax,9
+VVV-Venlo,Netherlands,Seacon Stadion,Heerenveen,8
+Willem II,Netherlands,Willem II Stadion,Sparta Rotterdam,10
+Belenenses SAD,Portugal,Estadio Nacional,Desportivo das Aves,10
+Benfica,Portugal,Estadio da Luz,Rio Ave,1
+Boavista,Portugal,Estadio do Bessa,Boavista,1
+Braga,Portugal,Estadio Municipal de Braga,Famalicao,6
+Desportivo das Aves,Portugal,Estadio do CD Aves,Sporting CP,3
+Famalicao,Portugal,Estadio Municipal 22 de Junho,Braga,10
+Gil Vicente,Portugal,Estadio Cidade de Barcelos,Belenenses SAD,1
+Maritimo,Portugal,Estadio do Maritimo,Moreirense,2
+Moreirense,Portugal,Parque de Jogos Comendador,Porto,2
+Pacos de Ferreira,Portugal,Estadio Capital do Movel,Portimonense,6
+Portimonense,Portugal,Estadio Municipal de Portimao,Vitoria de Setubal,3
+Porto,Portugal,Estadio do Dragao,Benfica,6
+Rio Ave,Portugal,Estadio dos Arcos,Santa Clara,10
+Santa Clara,Portugal,Estadio de Sao Miguel,Pacos de Ferreira,2
+Sporting CP,Portugal,Estadio Jose Alvalade,Vitoria de Guimaraes,10
+Tondela,Portugal,Estadio Joao Cardoso,Gil Vicente,2
+Vitoria de Guimaraes,Portugal,Estadio D. Afonso Henriques,Tondela,3
+Vitoria de Setubal,Portugal,Estadio do Bonfim,Maritimo,3
+Anderlecht,Belgium, Constant Vanden Stock Stadium,Standard Liege,8
+Antwerp,Belgium,Bosuilstadion,Oostende,3
+Cercle Brugge,Belgium,Jan Breydel Stadium,Eupen,9
+Charleroi,Belgium,Stade du Pays de Charleroi,Mechelen,5
+Club Brugge,Belgium,JanBreydel Stadium,Kortrijk,7
+Eupen,Belgium,Kehrwegstadion,Genk,1
+Genk,Belgium,Luminus Arena,Gent,2
+Gent,Belgium,Ghelamco Arena,Mouscron,5
+Kortrijk,Belgium,Guldensporen Stadion,Cercle Brugge,5
+Mechelen,Belgium,AFAS-stadion Achter de Kazerne,Antwerp,1
+Mouscron,Belgium,Stade Le Canonnier,Charleroi,1
+Oostende,Belgium,Versluys Arena,Sint-Truiden,6
+Sint-Truiden,Belgium, Stayen,Anderlecht,2
+Standard Liege,Belgium,Stade Maurice Dufrasne,Waasland-Beveren,4
+Waasland-Beveren,Belgium,Freethiel Stadion,Club Brugge,1
+Zulte Waregem,Belgium,Regenboogstadion,Zulte Waregem,8
